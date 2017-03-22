@@ -6,8 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <StackPanel>
-        <TextBox x:Name="textBox1"/>
+    <StackPanel Margin="4" Orientation="Horizontal" VerticalAlignment="Top">
+        <TextBox x:Name="textBox1" MinWidth="200"/>
         <Button x:Name="button1" Content="Say Hello" Click="button1_Click" HorizontalAlignment="Stretch"/>
     </StackPanel>
 </Page>
