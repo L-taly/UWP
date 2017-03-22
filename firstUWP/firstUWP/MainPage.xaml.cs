@@ -34,7 +34,7 @@ namespace firstUWP
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            this.textBox1.Text = "Hello WUP";
+            
         }
     }
 }
