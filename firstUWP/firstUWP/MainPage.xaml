@@ -8,6 +8,6 @@
     mc:Ignorable="d">
     <StackPanel>
         <TextBox x:Name="textBox1"/>
-        <Button x:Name="button1" Content="Say Hello" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Say Hello" Click="button1_Click" HorizontalAlignment="Stretch"/>
     </StackPanel>
 </Page>
