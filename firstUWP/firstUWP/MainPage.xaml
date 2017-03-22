@@ -6,8 +6,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Border BorderBrush="Red" BorderThickness=" 2" Padding=" 10">
+    <Border BorderBrush="Red" BorderThickness="2" Padding=" 10">
         <Grid BorderBrush="Orange" BorderThickness="2">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="LightBlue" Offset="0"/>
+                    <GradientStop Color="LightGreen" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
             <Button Width="200" Height="160" HorizontalAlignment="Center">
                 <TextBlock Text="人人编程 世界和平！"></TextBlock>
             </Button>
